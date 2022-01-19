@@ -1,0 +1,31 @@
+.banner-content {
+    margin-bottom: 75px;
+    .banner-slider {
+        margin-bottom: 68px;
+        img {
+            width: 100%;
+        }
+    }
+    .projects-card {
+        display: flex;
+        grid-gap: 35px;
+        .single-item {
+            display: flex;
+            grid-gap: 22px;
+            h3 {
+                font-size: 20px;
+                color: #00529c;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 15px;
+                margin-bottom: 10px;
+                line-height: 23px;
+            }
+            h5 {
+                font-size: 15px;
+                color: #00529c;
+            }
+        }
+    }
+}
