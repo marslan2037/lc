@@ -1,0 +1,33 @@
+.testimonial {
+    background-color: #eff6fd;
+    height: 400px;
+    .t-grid {
+        display: grid;
+        grid-template-columns: 136px auto;
+        grid-gap: 30px;
+        align-items: center;
+        padding: 70px 250px 70px 85px;
+        margin: 0 auto;
+        .t-content {
+            text-align: center;
+            h3 {
+                font-size: 20px;
+                color: $dark-blue;
+                margin-bottom: 40px;
+            }
+            p {
+                font-size: 18px;
+                color: $grey;
+                margin-bottom: 40px;
+            }
+            .light {
+                color: $light-blue;
+            }
+            .small {
+                margin-top: 20px;
+                font-size: 12px;
+                color: $dark-blue;
+            }
+        }
+    }
+}
