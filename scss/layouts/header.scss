@@ -1,3 +1,44 @@
 header {
-    
+    line-height: 165px;
+    align-items: center;
+    border-bottom: 7px solid #00529c;
+    background-color: white;
+    .inner-container {
+        .banner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            grid-gap: 100px;
+            padding-right: 31px;
+            h1 {
+                height: 121px;
+                a {
+                    background-image: url(../images/logo_05.png);
+                    height: 121px;
+                    background-repeat: no-repeat;
+                    display: block;
+                    width: 361px;
+                    text-indent: -9000px;
+                }
+            }
+            .header-menu {
+                ul {
+                    display: flex;
+                    grid-gap: 45px;
+                    align-items: center;
+                    li {
+                        a {
+                            color: #216093;
+                            font-family: sans-serif;
+                            font-weight: bold;
+                            font-size: 17px;
+                            &:hover {
+                                color: #589bd8;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
